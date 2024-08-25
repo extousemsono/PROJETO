@@ -1,6 +1,6 @@
+import flask
 
 while True:
-    # Dupla: José Victor Cirilo Guedes e Júlia Etiene
     from cinema import *
     import cinema
     import cliente

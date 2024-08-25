@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>cadastro</title>
+</head>
+<body>
+    <h1>Cadastre-se agora:</h1>
+        <form method="post">
+        <div class = "item"><input type="text" cliente="login" placeholder="Digite seu usuario:" required></div>
+        <div class = "item"><input type="password" senha="pass" placeholder="Digite sua senha:" required></div>
+        <form class="aprova" action="{{ url_for('redirecionar') }}" method="POST">
+        <button type="submit">enviar</button>
+        </form>
+        </div>
+    </form>
+    <h1>{{mensagem}}</h1>
+    <h1>{{mensagem2}}</h1>  
+    
+</body>
+</html>
